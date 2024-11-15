@@ -26,7 +26,7 @@ const projects = [
     category: "Frontend",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex beatae ut rerum adipisci.",
+      "GOJO is an Ecommerce site where people rent houses for their own use (living houses, restaurants, cafe, rentals)",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
     image: "/thumbnail-GOJO.png",
     live: "",
@@ -38,7 +38,7 @@ const projects = [
     category: "Full-stack",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex beatae ut rerum adipisci.",
+      "BISCS (barcode integrated student clearance system) is barcode based clearance system for Jimma University students where they can clear all their belongings on their smart phones.",
     stack: [
       { name: "React.js" },
       { name: "Node.js" },
@@ -55,7 +55,7 @@ const projects = [
     category: "Frontend",
     title: "project 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex beatae ut rerum adipisci.",
+      "GOJO is an Ecommerce site where people rent houses for their own use (living houses, restaurants, cafe, rentals)",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
     image: "/thumbnail-GOJO.png",
     live: "",
@@ -67,7 +67,7 @@ const projects = [
     category: "Full-stack",
     title: "project 4",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex beatae ut rerum adipisci.",
+      "BISCS (barcode integrated student clearance system) is barcode based clearance system for Jimma University students where they can clear all their belongings on their smart phones.",
     stack: [
       { name: "React.js" },
       { name: "Node.js" },
