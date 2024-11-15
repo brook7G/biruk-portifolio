@@ -18,7 +18,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { Github } from "lucide-react";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
-// 2:13:--
 
 const projects = [
   {
