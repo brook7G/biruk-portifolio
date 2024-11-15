@@ -13,7 +13,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. necessitatibus laborum dicta ullam ut placeat!",
+    "You can use this address to contact me and feel free to reach out",
   info: [
     {
       fieldName: "Name",
@@ -61,8 +61,7 @@ const about = {
 const experience = {
   icon: "/assets/",
   title: "My Experience",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae",
+  description: "This is the experiences I had during my programming journey",
   item: [
     {
       company: "Freelance",
@@ -94,8 +93,7 @@ const experience = {
 const education = {
   icon: "/assets/",
   title: "My Education",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae",
+  description: "My education journey and learning process ",
   item: [
     {
       institution: "Jimma University",
@@ -126,8 +124,7 @@ const education = {
 //skills data
 const skills = {
   title: "My skills",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam blanditiis fugit praesentiu.",
+  description: "Skills I had and stacks I use to build things ",
   skill_lists: [
     {
       icon: <FaJava />,
