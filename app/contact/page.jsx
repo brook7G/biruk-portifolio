@@ -61,14 +61,15 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent">Let's Hustle Together</h3>
               <p className="text-white/60">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Voluptatibus repellat autem sequi ipsa magni in dolore vitae.
+                Send what you want me to build it for you by adding a detailed
+                information and select 1 of 4 services and send it to me or any
+                question you have in tech
               </p>
 
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="firstname" placeholder="Firstname" />
-                <Input type="lastname" placeholder="Lastname" />
+                <Input type="firstname" placeholder="First name" />
+                <Input type="lastname" placeholder="Last name" />
                 <Input type="email" placeholder="Email Address" />
                 <Input type="phone" placeholder="Phone Number" />
               </div>
