@@ -14,7 +14,12 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import {
+  FaPhoneAlt,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaLinkedin,
+} from "react-icons/fa";
 // import { icons } from "lucide-react";
 
 const info = [
@@ -34,12 +39,6 @@ const info = [
     icon: <FaMapMarkerAlt />,
     title: "Address",
     description: "Variety, Jimma, Ethiopia ",
-  },
-
-  {
-    icon: <FaPhoneAlt />,
-    title: "Phone",
-    description: "+251 938 74 1514",
   },
 ];
 
@@ -79,13 +78,47 @@ const Contact = () => {
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
+                <SelectContent>
+                  <SelectGroup>
+                    <SelectLabel></SelectLabel>
+                    <SelectItem value="est">Software Developement</SelectItem>
+                    <SelectItem value="cst">Web Developement</SelectItem>
+                    <SelectItem value="mst">App Developement</SelectItem>
+                    <SelectItem value="lst">Ai and Ml consulting</SelectItem>
+                  </SelectGroup>
+                </SelectContent>
               </Select>
+
+              {/* textarea */}
+              <Textarea
+                className="h-[200px]"
+                placeholder="Type your message here"
+              />
+
+              {/* button */}
+              <Button size="md" className="max-w-40">
+                Send message
+              </Button>
             </form>
           </div>
 
           {/* info */}
           <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
-            info
+            <ul className="flex flex-col gap-10">
+              {info.map((item, index) => {
+                return (
+                  <li key={index} className="flex items-center gap-6">
+                    <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#27272c] text-accent rounded-xl flex items-center justify-center">
+                      <div className="text-[28px]">{item.icon}</div>
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-white/60">{item.title}</p>
+                      <h3 className="text-xl">{item.description}</h3>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
         </div>
       </div>
