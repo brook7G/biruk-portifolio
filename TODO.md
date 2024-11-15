@@ -1,0 +1,1 @@
+`npm i swipper` for work/page.jsx
