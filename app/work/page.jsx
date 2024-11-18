@@ -52,10 +52,14 @@ const projects = [
   {
     num: "03",
     category: "Frontend",
-    title: "project 3",
+    title: "Biruk-Portfolio",
     description:
-      "GOJO is an Ecommerce site where people rent houses for their own use (living houses, restaurants, cafe, rentals)",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "JavaScript" }],
+      "Biruk-Portfolio is my personal portfolio site I built using NextJs, Tailwind Css and Framer motion",
+    stack: [
+      { name: "NextJs" },
+      { name: "Tailwind Css" },
+      { name: "Framer Motion" },
+    ],
     image: "/thumbnail-GOJO.png",
     live: "",
     github: "",
