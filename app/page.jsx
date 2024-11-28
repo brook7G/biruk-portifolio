@@ -11,7 +11,6 @@ const Home = () => {
     <section className="h-full">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-          
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Programmer</span>
@@ -22,7 +21,7 @@ const Home = () => {
               I excel at crafting elegant digital experiances and I am
               proficient in various programming languages and technologies.
             </p>
-           
+
             {/* buttons and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
@@ -43,7 +42,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          
+
           {/* photo */}
           <div className="order-1 xl:order-none mb-8 xl:mb-0">
             <Photo />
@@ -54,7 +53,5 @@ const Home = () => {
     </section>
   );
 };
-
-//54:47
 
 export default Home;
