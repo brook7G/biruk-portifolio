@@ -56,6 +56,7 @@ const projects = [
     description:
       "Biruk-Portfolio is my personal portfolio site I built using NextJs, Tailwind Css and Framer motion",
     stack: [
+      { name: "ReactJs" },
       { name: "NextJs" },
       { name: "Tailwind Css" },
       { name: "Framer Motion" },
