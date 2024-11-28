@@ -68,8 +68,8 @@ const projects = [
     description:
       "BISCS (barcode integrated student clearance system) is barcode based clearance system for Jimma University students where they can clear all their belongings on their smart phones.",
     stack: [
-      { name: "React.js" },
-      { name: "Node.js" },
+      { name: "ReactJs" },
+      { name: "NodeJs" },
       { name: "Express" },
       { name: "Mongodb" },
     ],
