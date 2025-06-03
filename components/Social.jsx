@@ -6,13 +6,14 @@ import {
   FaTwitter,
   FaTelegram,
   FaYoutube,
+  FaPhone,
 } from "react-icons/fa";
 
 const socials = [
   { icon: <FaGithub />, path: "https://github.com/brook7G" },
   { icon: <FaLinkedinIn />, path: "https://linkedin.com/in/birukfekadu" },
-  { icon: <FaYoutube />, path: "" },
-  { icon: <FaTwitter />, path: "" },
+  { icon: <FaTelegram />, path: "https://t.me/birukefekadu" },
+  { icon: <FaPhone />, path: "+251938741514" },
 ];
 const Social = ({ containerStyles, iconStyles }) => {
   return (
