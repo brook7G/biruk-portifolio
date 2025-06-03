@@ -9,19 +9,23 @@ import {
 } from "react-icons/fa";
 
 const socials = [
-  { icon: <FaGithub />, path: "" },
+  { icon: <FaGithub />, path: "github.com/brook7g/" },
   { icon: <FaLinkedinIn />, path: "" },
   { icon: <FaYoutube />, path: "" },
   { icon: <FaTwitter />, path: "" },
 ];
 const Social = ({ containerStyles, iconStyles }) => {
-  return <div className={containerStyles}>
-    {socials.map((item, index)=> {
-        return <Link key={index} href={item.path} className={iconStyles}>
+  return (
+    <div className={containerStyles}>
+      {socials.map((item, index) => {
+        return (
+          <Link key={index} href={item.path} className={iconStyles}>
             {item.icon}
-        </Link>
-    })}
-  </div>;
+          </Link>
+        );
+      })}
+    </div>
+  );
 };
 
 export default Social;
