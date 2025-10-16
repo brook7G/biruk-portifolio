@@ -55,7 +55,7 @@ const projects = [
     title: "Financial Dashboard",
     description:
       "This project is a modern financial dashboard web application built with Next.js, React, and TypeScript. It provides a clean, responsive interface for managing customers, invoices, and revenue data, featuring authentication, data visualization, and advanced UI components.",
-    stack: [{ name: "TypeScript" }, { name: "NextJs" }, { name: "Tailwind " }],
+    stack: [{ name: "TypeScript" }, { name: "NextJs" }, { name: "Tailwind " }, { name: "PostgreSQL " }, { name: "Zod" }, { name: "React" }],
     image: "/thumbnail-GOJO.png",
     live: "",
     github: "",
@@ -64,16 +64,16 @@ const projects = [
   {
     num: "04",
     category: "Full-stack",
-    title: "project 4",
+    title: "GEN-Z AI",
     description:
-      "BISCS (barcode integrated student clearance system) is barcode based clearance system for Jimma University students where they can clear all their belongings on their smart phones.",
+      "A Next.js 15 app that generates short-form video scripts with AI and prepares text-to-speech audio. Users authenticate via Clerk, choose topic/style/duration, and the app creates a structured scene-by-scene script suitable for generating images and audio.",
     stack: [
-      { name: "ReactJs" },
-      { name: "NodeJs" },
-      { name: "Express" },
-      { name: "Mongodb" },
+      { name: "NextJs 14" },
+      { name: "React 19" },
+      { name: "Groq-SDK(Speech & Text)" },
+      { name: "Drizzle ORM & Neon Postgres" },
     ],
-    image: "/thumbnail-JU.png",
+    image: "/image.png",
     live: "",
     github: "",
   },
