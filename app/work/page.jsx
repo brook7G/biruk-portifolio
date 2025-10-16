@@ -56,7 +56,7 @@ const projects = [
     description:
       "This project is a modern financial dashboard web application built with Next.js, React, and TypeScript. It provides a clean, responsive interface for managing customers, invoices, and revenue data, featuring authentication, data visualization, and advanced UI components.",
     stack: [{ name: "TypeScript" }, { name: "NextJs" }, { name: "Tailwind " }, { name: "PostgreSQL " }, { name: "Zod" }, { name: "React" }],
-    image: "/thumbnail-GOJO.png",
+    image: "/dashboard.avif",
     live: "",
     github: "",
   },
